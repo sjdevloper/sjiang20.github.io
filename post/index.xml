@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Simple Dev Blog</title>
+    <link>http://sjiang20.github.io/post/</link>
+    <description>Recent content in Posts on My Simple Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jan 2022 12:05:23 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building GitHub Page Blog</title>
+      <link>http://sjiang20.github.io/post/post1/</link>
+      <pubDate>Wed, 12 Jan 2022 12:05:23 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post1/</guid>
+      <description>Install hugo  (mac)  Brew install hugo    Create two repositories on GitHub and Make them public  sjiang20.github.io (going to be used as URL) Blog  Clone Blog repositories to local  Inside of Blog, create,RUN  hugo new site dev-tips   Inside of dev-tips, go directly to themes Choose one of the favorite Themes from HUGO official website  git clone the Themes from HUGO official website to themes   Open up config.</description>
+    </item>
+    
+  </channel>
+</rss>
