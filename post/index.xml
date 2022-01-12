@@ -13,7 +13,7 @@
       <pubDate>Wed, 12 Jan 2022 12:05:23 -0800</pubDate>
       
       <guid>http://sjiang20.github.io/post/post1/</guid>
-      <description>Install hugo  (mac)  Brew install hugo    Create two repositories on GitHub and Make them public  sjiang20.github.io (going to be used as URL) Blog  Clone Blog repositories to local  Inside of Blog, create,RUN  hugo new site dev-tips   Inside of dev-tips, go directly to themes Choose one of the favorite Themes from HUGO official website  git clone the Themes from HUGO official website to themes   Open up config.</description>
+      <description>Install hugo  (mac)  Brew install hugo    Create two repositories on GitHub and Make them public  sjiang20.github.io (going to be used as URL) myblog  Clone Blog repositories to local  Inside of myblog, create,RUN  hugo new site dev-tips   Inside of dev-tips, go directly to themes Choose one of the favorite Themes from HUGO official website  git clone the Themes from HUGO official website to themes   Open up config.</description>
     </item>
     
   </channel>
