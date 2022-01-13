@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Vanilla JS add event listener on multiple elements</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	========================<br>
+	== <a href="http://sjiang20.github.io/">My Simple Dev Blog</a> ==<br>
+	========================
+	<div style="float: right;">Serena Jiang</div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			
+			
+			<a href="/posts/"><b>Posts</b></a>.
+			
+			<a href="/categories/"><b>Categories</b></a>.
+			
+			<a href="/tags/"><b>Tags</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Vanilla JS add event listener on multiple elements</h1>
+			<b><time>12.01.2022 18:49</time></b>
+		       
+
+			<div>
+				<h2 id="in-vanilla-javascript-there-are-multiple-ways-of-addeventlistener-to-elements">In Vanilla JavaScript, there are multiple ways of addEventListener to elements.</h2>
+<h3 id="add-event-listener--to-one-single-element">Add event listener  to one single element:</h3>
+<pre><code>const btn = document.getElementById('btn-section-3');
+btn.addEventListener('click', function (event) {
+  console.time('id');
+  event.preventDefault();
+  const element = document.getElementById(event.target.dataset.target);
+  element.scrollIntoView();
+  console.timeEnd('id');
+});
+
+</code></pre><ol>
+<li>Getting the element based on its ID CSS selector;</li>
+<li>Using addEventListener to listen for click event;</li>
+<li>Starting a  performance timer to keep track of the speed;</li>
+<li>Doing a simple scrollIntoView to have some animation.</li>
+</ol>
+<h3 id="vanilla-javascript-use-addeventlistener-in-a-for-loop">Vanilla JavaScript use addEventListener in a for loop:</h3>
+<pre><code>document.querySelectorAll('.more-class').forEach((item) =&gt; {
+  item.addEventListener('click', (event) =&gt; {
+    console.time('more');
+    event.preventDefault();
+    const element = document.getElementById(event.target.dataset.target);
+    element.scrollIntoView();
+    console.timeEnd('more');
+  });
+});
+
+</code></pre><ol>
+<li>Using querySelectorAll to get all items the class more-class;</li>
+<li>Looping through the element;</li>
+<li>Using addEventListener and add it again to each element.</li>
+</ol>
+<h3 id="vanilla-javascript-using-addeventlistener-to-multiple-items-using-event-bubbling">Vanilla JavaScript using addEventListener to multiple items using event bubbling:</h3>
+<pre><code>document.addEventListener('click', function (event) {
+  if (!event.target.matches('.btn-scroll-into')) return;
+  console.time('bubbling');
+  event.preventDefault();
+  const element = document.getElementById(event.target.dataset.target);
+  element.scrollIntoView();
+  console.timeEnd('bubbling');
+});
+
+</code></pre><ol>
+<li>Using addEventListener on all elements to listen to clicks anywhere in the DOM;</li>
+<li>Checking all children if the target match the class btn-scroll-into.</li>
+</ol>
+<p><a href="https://daily-dev-tips.com/posts/vanilla-javascript-event-listener-on-multiple-elements/">Reference</a></p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/post/post2/">Vanilla JS add event listener on multiple elements</a></li>
+				
+				<li><a href="/post/post1/">Building GitHub Page Blog</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2022 <a href="http://sjiang20.github.io/"><b>My Simple Dev Blog</b></a>.
+	<a href="https://github.com/sjiang20"><b>Github</b></a>.
+	<a href="https://www.linkedin.com/in/jiang1028/"><b>Linkedin</b></a>.
+	<a href="/imprint"><b>Subcribe</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>
