@@ -6,7 +6,20 @@
     <description>Recent content in Posts on My Simple Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jan 2022 18:49:48 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jan 2022 23:01:21 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The CSS Position Property</title>
+      <link>http://sjiang20.github.io/post/post3/</link>
+      <pubDate>Thu, 13 Jan 2022 23:01:21 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post3/</guid>
+      <description>There are five different position values:  static relative fixed absolute sticky    HTML elements are positioned static by default
+  Relative is positioned relative to its normal position.
+  Fixed is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
+  Position absolute is relative to the nearest positioned ancestor.
+  Sticky is position based on the user&amp;rsquo;s scroll position.</description>
+    </item>
+    
     <item>
       <title>Vanilla JS add event listener on multiple elements</title>
       <link>http://sjiang20.github.io/post/post2/</link>
