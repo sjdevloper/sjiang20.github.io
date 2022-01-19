@@ -6,7 +6,16 @@
     <description>Recent content on My Simple Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jan 2022 23:01:21 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jan 2022 22:19:24 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Difference Between Stack and Queue</title>
+      <link>http://sjiang20.github.io/post/post4/</link>
+      <pubDate>Tue, 18 Jan 2022 22:19:24 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post4/</guid>
+      <description>Stack  Linear data structure; Inserted and deleted only from one side of the list;  Insert operation called push operation; Delete operation is called pop operation;   LIFO(Last in First Out); Used in solving problems works on recursion;  Queue  Linear data structure; Inserted only from rear and deleted only from front of the list;  Insert operation called enqueue operation; Delete operation is called dequeue operation;   FIFO(First in First Out) Used in solving problems having sequential processing;  </description>
+    </item>
+    
     <item>
       <title>The CSS Position Property</title>
       <link>http://sjiang20.github.io/post/post3/</link>

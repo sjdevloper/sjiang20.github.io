@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<style type=text/css>body{font-family:monospace;}</style>
-	<title>The CSS Position Property</title>
+	<title>Difference Between Stack and Queue</title>
 	
 	
 	<link rel="stylesheet" href="/css/style.css">
@@ -33,36 +33,35 @@
 	
 	<main>
 		<article>
-			<h1>The CSS Position Property</h1>
-			<b><time>13.01.2022 23:01</time></b>
+			<h1>Difference Between Stack and Queue</h1>
+			<b><time>18.01.2022 22:19</time></b>
 		       
 
 			<div>
-				<h2 id="there-are-five-different--position-values">There are five different  position values:</h2>
+				<h2 id="stack">Stack</h2>
 <ul>
-<li>static</li>
-<li>relative</li>
-<li>fixed</li>
-<li>absolute</li>
-<li>sticky</li>
+<li>Linear data structure;</li>
+<li>Inserted and deleted only from one side of the list;
+<ul>
+<li>Insert operation called push operation;</li>
+<li>Delete operation is called pop operation;</li>
 </ul>
-<ol>
-<li>
-<p>HTML elements are positioned static by default</p>
 </li>
-<li>
-<p>Relative is positioned relative to its normal position.</p>
+<li>LIFO(Last in First Out);</li>
+<li>Used in solving problems works on recursion;</li>
+</ul>
+<h2 id="queue">Queue</h2>
+<ul>
+<li>Linear data structure;</li>
+<li>Inserted only from rear and deleted only from front of the list;
+<ul>
+<li>Insert operation called enqueue operation;</li>
+<li>Delete operation is called dequeue operation;</li>
+</ul>
 </li>
-<li>
-<p>Fixed is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.</p>
-</li>
-<li>
-<p>Position absolute is relative to the nearest positioned ancestor.</p>
-</li>
-<li>
-<p>Sticky is position based on the user&rsquo;s scroll position.</p>
-</li>
-</ol>
+<li>FIFO(First in First Out)</li>
+<li>Used in solving problems having sequential processing;</li>
+</ul>
 
 			</div>
 		</article>
