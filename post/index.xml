@@ -6,7 +6,16 @@
     <description>Recent content in Posts on My Simple Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jan 2022 22:19:24 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jan 2022 10:21:44 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building up WordPress Website on GoDaddy</title>
+      <link>http://sjiang20.github.io/post/post5/</link>
+      <pubDate>Wed, 19 Jan 2022 10:21:44 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post5/</guid>
+      <description>1. Go to GoDaddy, Choose your plan.  Get the free domain; After selecting a free domain, Create an account in GoDaddy Following the step to make a payment Check the email to verify the email address, to use the domain just registered  2. Click Go to My Account  Under the Web Hosting, go to Set up, then adding Domain Create WordPress account Click Set Up My Site Purchase an SSL certificate to secure the domain and make sure that it&amp;rsquo;s protected from hackers and other people trying to steal the information Then go to the cPanel admin  3.</description>
+    </item>
+    
     <item>
       <title>Difference Between Stack and Queue</title>
       <link>http://sjiang20.github.io/post/post4/</link>
