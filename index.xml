@@ -13,7 +13,9 @@
       <pubDate>Wed, 19 Jan 2022 10:21:44 -0800</pubDate>
       
       <guid>http://sjiang20.github.io/post/post5/</guid>
-      <description>1. Go to GoDaddy, Choose your plan.  Get the free domain; After selecting a free domain, Create an account in GoDaddy Following the step to make a payment Check the email to verify the email address, to use the domain just registered  2. Click Go to My Account  Under the Web Hosting, go to Set up, then adding Domain Create WordPress account Click Set Up My Site Purchase an SSL certificate to secure the domain and make sure that it&amp;rsquo;s protected from hackers and other people trying to steal the information Then go to the cPanel admin  3.</description>
+      
+        <description>1. Go to GoDaddy, Choose your plan.  Get the free domain; After selecting a free domain, Create an account in GoDaddy Following the step to make a payment Check the email to verify the email address, to use the domain just registered  2. Click Go to My Account  Under the Web Hosting, go to Set up, then adding Domain Create WordPress account Click Set Up My Site Purchase an SSL certificate to secure the domain and make sure that it&amp;rsquo;s protected from hackers and other people trying to steal the information Then go to the cPanel admin  3.</description>
+      
     </item>
     
     <item>
@@ -22,7 +24,9 @@
       <pubDate>Tue, 18 Jan 2022 22:19:24 -0800</pubDate>
       
       <guid>http://sjiang20.github.io/post/post4/</guid>
-      <description>Stack  Linear data structure; Inserted and deleted only from one side of the list;  Insert operation called push operation; Delete operation is called pop operation;   LIFO(Last in First Out); Used in solving problems works on recursion;  Queue  Linear data structure; Inserted only from rear and deleted only from front of the list;  Insert operation called enqueue operation; Delete operation is called dequeue operation;   FIFO(First in First Out) Used in solving problems having sequential processing;  </description>
+      
+        <description>Stack  Linear data structure; Inserted and deleted only from one side of the list;  Insert operation called push operation; Delete operation is called pop operation;   LIFO(Last in First Out); Used in solving problems works on recursion;  Queue  Linear data structure; Inserted only from rear and deleted only from front of the list;  Insert operation called enqueue operation; Delete operation is called dequeue operation;   FIFO(First in First Out) Used in solving problems having sequential processing;  </description>
+      
     </item>
     
     <item>
@@ -31,11 +35,13 @@
       <pubDate>Thu, 13 Jan 2022 23:01:21 -0800</pubDate>
       
       <guid>http://sjiang20.github.io/post/post3/</guid>
-      <description>There are five different position values:  static relative fixed absolute sticky    HTML elements are positioned static by default
+      
+        <description>There are five different position values:  static relative fixed absolute sticky    HTML elements are positioned static by default
   Relative is positioned relative to its normal position.
   Fixed is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
   Position absolute is relative to the nearest positioned ancestor.
   Sticky is position based on the user&amp;rsquo;s scroll position.</description>
+      
     </item>
     
     <item>
@@ -44,7 +50,9 @@
       <pubDate>Wed, 12 Jan 2022 18:49:48 -0800</pubDate>
       
       <guid>http://sjiang20.github.io/post/post2/</guid>
-      <description>In Vanilla JavaScript, there are multiple ways of addEventListener to elements. Add event listener to one single element: const btn = document.getElementById(&#39;btn-section-3&#39;); btn.addEventListener(&#39;click&#39;, function (event) { console.time(&#39;id&#39;); event.preventDefault(); const element = document.getElementById(event.target.dataset.target); element.scrollIntoView(); console.timeEnd(&#39;id&#39;); });  Getting the element based on its ID CSS selector; Using addEventListener to listen for click event; Starting a performance timer to keep track of the speed; Doing a simple scrollIntoView to have some animation.  Vanilla JavaScript use addEventListener in a for loop: document.</description>
+      
+        <description>In Vanilla JavaScript, there are multiple ways of addEventListener to elements. Add event listener to one single element: const btn = document.getElementById(&#39;btn-section-3&#39;); btn.addEventListener(&#39;click&#39;, function (event) { console.time(&#39;id&#39;); event.preventDefault(); const element = document.getElementById(event.target.dataset.target); element.scrollIntoView(); console.timeEnd(&#39;id&#39;); });  Getting the element based on its ID CSS selector; Using addEventListener to listen for click event; Starting a performance timer to keep track of the speed; Doing a simple scrollIntoView to have some animation.  Vanilla JavaScript use addEventListener in a for loop: document.</description>
+      
     </item>
     
     <item>
@@ -53,7 +61,9 @@
       <pubDate>Wed, 12 Jan 2022 12:05:23 -0800</pubDate>
       
       <guid>http://sjiang20.github.io/post/post1/</guid>
-      <description>Install hugo  (mac)  Brew install hugo    Create two repositories on GitHub and Make them public  sjiang20.github.io (going to be used as URL) myblog  Clone Blog repositories to local  Inside of myblog, create,RUN  hugo new site dev-tips   Inside of dev-tips, go directly to themes Choose one of the favorite Themes from HUGO official website  git clone the Themes from HUGO official website to themes   Open up config.</description>
+      
+        <description>Install hugo  (mac)  Brew install hugo    Create two repositories on GitHub and Make them public  sjiang20.github.io (going to be used as URL) myblog  Clone Blog repositories to local  Inside of myblog, create,RUN  hugo new site dev-tips   Inside of dev-tips, go directly to themes Choose one of the favorite Themes from HUGO official website  git clone the Themes from HUGO official website to themes   Open up config.</description>
+      
     </item>
     
   </channel>
