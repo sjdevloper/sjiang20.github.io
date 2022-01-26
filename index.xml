@@ -6,7 +6,20 @@
     <description>Recent content on My Simple Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jan 2022 10:21:44 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 22:10:37 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker with Flask</title>
+      <link>http://sjiang20.github.io/post/post6/</link>
+      <pubDate>Tue, 25 Jan 2022 22:10:37 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post6/</guid>
+      
+        <description>Install both Docker Engine and Docker Compose Set up    Create a directory for the project
+$ mkdir composetest $ cd composetest   Create a file called app.py in your project directory and paste this in:
+import time import redis from flask import Flask app = Flask(__name__) cache = redis.Redis(host=&#39;redis&#39;, port=6379) def get_hit_count(): retries = 5 while True: try: return cache.incr(&#39;hits&#39;) except redis.exceptions.ConnectionError as exc: if retries == 0: raise exc retries -= 1 time.</description>
+      
+    </item>
+    
     <item>
       <title>Building up WordPress Website on GoDaddy</title>
       <link>http://sjiang20.github.io/post/post5/</link>

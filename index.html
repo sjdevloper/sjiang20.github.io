@@ -22,7 +22,7 @@
   <meta
     name="description"
     content="
-      I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.
+      I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.This is my Simple Dev Blog
 
 
     "
@@ -88,7 +88,7 @@
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My Simple Dev Blog"/>
-<meta name="twitter:description" content="I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving."/>
+<meta name="twitter:description" content="I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.This is my Simple Dev Blog"/>
 
 
 
@@ -102,7 +102,7 @@
       "@type": "WebSite",
       "name": "My Simple Dev Blog",
       "url": "http:\/\/sjiang20.github.io\/",
-      "description": "I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.",
+      "description": "I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.This is my Simple Dev Blog",
       "thumbnailUrl": "http:\/\/sjiang20.github.io\/",
       "license": ""
     }
@@ -169,7 +169,7 @@
         <img src="/img/pic1.jpeg" alt="profile picture" />
         <h3 title=""><a href="/">I&#39;m Serena Jiang, software Engineer</a></h3>
         <div class="description">
-          <p>I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.</p>
+          <p>I have Front-end web development experience in building web applications.I specialize in JavaScript and have professional experience working with HTML and CSS, andI also have experience working with jQuery and React. I have enthusiastic about coding and problem-solving.This is my Simple Dev Blog</p>
         </div>
       </div>
     </div>
@@ -247,6 +247,51 @@
   
 
   
+  
+    <div
+      class="post 
+        animated fadeInDown
+
+      "
+    >
+      
+      <div class="post-title">
+        <h3><a href="/post/post6/">Docker with Flask</a></h3>
+      </div>
+      <div class="post-content">
+        <div class="p_part">
+          <p>
+            
+              Install both Docker Engine and Docker Compose Set up    Create a directory for the project
+$ mkdir composetest $ cd composetest   Create a file called app.py in your project directory and paste this in:
+import time import redis from flask import Flask app = Flask(__name__) cache = redis.Redis(host='redis', port=6379) def get_hit_count(): retries = 5 while True: try: return cache.incr('hits') except redis.exceptions.ConnectionError as exc: if retries == 0: raise exc retries -= 1 time.
+
+
+            
+          </p>
+          </div>
+      </div>
+
+      
+      <div class="post-footer">
+        <div class="meta">
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                Tue, Jan 25, 2022
+
+
+              </span
+            >
+            
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
   
     <div
       class="post 

@@ -8,7 +8,7 @@
     
       Serena Jiang
         |
-        Difference Between Stack and Queue
+        Docker with Flask
 
 
       
@@ -59,7 +59,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="http://sjiang20.github.io/post/post4/" />
+  <link rel="canonical" href="http://sjiang20.github.io/post/post6/" />
 
   
   
@@ -84,8 +84,10 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Difference Between Stack and Queue"/>
-<meta name="twitter:description" content="Stack  Linear data structure; Inserted and deleted only from one side of the list;  Insert operation called push operation; Delete operation is called pop operation;   LIFO(Last in First Out); Used in solving problems works on recursion;  Queue  Linear data structure; Inserted only from rear and deleted only from front of the list;  Insert operation called enqueue operation; Delete operation is called dequeue operation;   FIFO(First in First Out) Used in solving problems having sequential processing;  "/>
+<meta name="twitter:title" content="Docker with Flask"/>
+<meta name="twitter:description" content="Install both Docker Engine and Docker Compose Set up    Create a directory for the project
+$ mkdir composetest $ cd composetest   Create a file called app.py in your project directory and paste this in:
+import time import redis from flask import Flask app = Flask(__name__) cache = redis.Redis(host=&#39;redis&#39;, port=6379) def get_hit_count(): retries = 5 while True: try: return cache.incr(&#39;hits&#39;) except redis.exceptions.ConnectionError as exc: if retries == 0: raise exc retries -= 1 time."/>
 
 
 
@@ -101,12 +103,12 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "post",
-        "name": "Difference Between Stack and Queue",
-        "headline": "Difference Between Stack and Queue",
+        "name": "Docker with Flask",
+        "headline": "Docker with Flask",
         "alternativeHeadline": "",
         "description": "
       
-        Stack  Linear data structure; Inserted and deleted only from one side of the list;  Insert operation called push operation; Delete operation is called pop operation;   LIFO(Last in First Out); Used in solving problems works on recursion;  Queue  Linear data structure; Inserted only from rear and deleted only from front of the list;  Insert operation called enqueue operation; Delete operation is called dequeue operation;   FIFO(First in First Out) Used in solving problems having sequential processing;  
+        Install both Docker Engine and Docker Compose Set up    Create a directory for the project\n$ mkdir composetest $ cd composetest   Create a file called app.py in your project directory and paste this in:\nimport time import redis from flask import Flask app = Flask(__name__) cache = redis.Redis(host=\u0027redis\u0027, port=6379) def get_hit_count(): retries = 5 while True: try: return cache.incr(\u0027hits\u0027) except redis.exceptions.ConnectionError as exc: if retries == 0: raise exc retries -= 1 time.
 
 
       
@@ -117,7 +119,7 @@
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/sjiang20.github.io\/post\/post4\/"
+            "@id": "http:\/\/sjiang20.github.io\/post\/post6\/"
         },
         "author" : {
             "@type": "Person",
@@ -136,9 +138,9 @@
             "name": "Serena Jiang"
         },
         "copyrightYear" : "2022",
-        "dateCreated": "2022-01-18T22:19:24.00Z",
-        "datePublished": "2022-01-18T22:19:24.00Z",
-        "dateModified": "2022-01-18T22:19:24.00Z",
+        "dateCreated": "2022-01-25T22:10:37.00Z",
+        "datePublished": "2022-01-25T22:10:37.00Z",
+        "dateModified": "2022-01-25T22:10:37.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "Serena Jiang",
@@ -155,8 +157,8 @@
       ]
 
     ,
-        "url" : "http:\/\/sjiang20.github.io\/post\/post4\/",
-        "wordCount" : "74",
+        "url" : "http:\/\/sjiang20.github.io\/post\/post6\/",
+        "wordCount" : "177",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -294,13 +296,13 @@
     <div class="post-content">
       
       <div class="post-title">
-        <h1>Difference Between Stack and Queue</h1>
+        <h1>Docker with Flask</h1>
         
           <div class="info">
             <em class="fas fa-calendar-day"></em>
             <span class="date"
               >
-                Tue, Jan 18, 2022
+                Tue, Jan 25, 2022
 
 
               </span
@@ -310,30 +312,82 @@
           </div>
 
         
-      </div><h2 id="stack">Stack</h2>
+      </div><ol>
+<li>Install both <strong>Docker Engine</strong> and <strong>Docker Compose</strong></li>
+<li>Set up</li>
+</ol>
 <ul>
-<li>Linear data structure;</li>
-<li>Inserted and deleted only from one side of the list;
-<ul>
-<li>Insert operation called push operation;</li>
-<li>Delete operation is called pop operation;</li>
+<li>
+<p>Create a directory for the project</p>
+<pre><code>$ mkdir composetest
+$ cd composetest
+</code></pre></li>
+<li>
+<p>Create a file called app.py in your project directory and paste this in:</p>
+<pre><code>import time
+
+import redis
+from flask import Flask
+
+app = Flask(__name__)
+cache = redis.Redis(host='redis', port=6379)
+
+def get_hit_count():
+    retries = 5
+    while True:
+        try:
+            return cache.incr('hits')
+        except redis.exceptions.ConnectionError as exc:
+            if retries == 0:
+                raise exc
+            retries -= 1
+            time.sleep(0.5)
+
+@app.route('/')
+def hello():
+    count = get_hit_count()
+    return 'Hello World! I have been seen {} times.\n'.format(count)
+
+  ```
+
+- Create another file called requirements.txt
+  ```
+  flask
+  redis
+  ```
+
+</code></pre></li>
 </ul>
+<ol start="3">
+<li>
+<p>Create a Dockerfile</p>
+<pre><code>write a Dockerfile that builds a Docker image. The image contains all the dependencies the Python application requires, including Python itself.
+</code></pre></li>
+<li>
+<p>Define services in a Compose profile</p>
+<ul>
+<li>Create a file docker-compose.yml</li>
+</ul>
+<pre><code> version: &quot;3.9&quot;
+ services:
+   web:
+     build: .
+     ports:
+       - &quot;5000:5000&quot;
+   redis:
+     image: &quot;redis:alpine&quot;
+</code></pre></li>
+<li>
+<p>Build and run the app with Compose</p>
 </li>
-<li>LIFO(Last in First Out);</li>
-<li>Used in solving problems works on recursion;</li>
-</ul>
-<h2 id="queue">Queue</h2>
+</ol>
 <ul>
-<li>Linear data structure;</li>
-<li>Inserted only from rear and deleted only from front of the list;
-<ul>
-<li>Insert operation called enqueue operation;</li>
-<li>Delete operation is called dequeue operation;</li>
+<li>From your project directory, start up your application by running docker-compose up.</li>
+<li>Enter http://localhost:5000/ in a browser to see the application running.</li>
 </ul>
-</li>
-<li>FIFO(First in First Out)</li>
-<li>Used in solving problems having sequential processing;</li>
-</ul>
+<p>Reference:
+<a href="https://docs.docker.com/compose/gettingstarted/">Link</a></p>
+<p><a href="https://github.com/sjiang20/DockerwithFlask/tree/master/composetest">GitHub</a></p>
 </div>
     <div class="post-footer">
       <div class="info">
