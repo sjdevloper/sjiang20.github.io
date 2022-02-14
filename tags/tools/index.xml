@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on My Simple Dev Blog</title>
+    <link>http://sjiang20.github.io/tags/tools/</link>
+    <description>Recent content in Tools on My Simple Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Feb 2022 11:01:23 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atom with Terminal - Mac</title>
+      <link>http://sjiang20.github.io/post/post7/</link>
+      <pubDate>Mon, 14 Feb 2022 11:01:23 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post7/</guid>
+      
+        <description>Atom is the one of the most popular JavaScript front-end tools. It is simple editor for writing the JavaScript program is one of the best IDEs to find customization for doing everything without modifying the configuration file. I&amp;rsquo;ll give some steps to add teminal in Atom in this blog.
+  Open Atom
+  Go to Packages category under Atom in the top of you screen.
+  Under Packages category, click install.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

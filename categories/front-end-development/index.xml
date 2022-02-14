@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Simple Dev Blog</title>
-    <link>http://sjiang20.github.io/</link>
-    <description>Recent content on My Simple Dev Blog</description>
+    <title>Front End Development on My Simple Dev Blog</title>
+    <link>http://sjiang20.github.io/categories/front-end-development/</link>
+    <description>Recent content in Front End Development on My Simple Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Feb 2022 11:01:23 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 11:01:23 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/categories/front-end-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atom with Terminal - Mac</title>
       <link>http://sjiang20.github.io/post/post7/</link>
@@ -79,17 +79,6 @@ import time import redis from flask import Flask app = Flask(__name__) cache = r
       <guid>http://sjiang20.github.io/post/post2/</guid>
       
         <description>In Vanilla JavaScript, there are multiple ways of addEventListener to elements. Add event listener to one single element: const btn = document.getElementById(&#39;btn-section-3&#39;); btn.addEventListener(&#39;click&#39;, function (event) { console.time(&#39;id&#39;); event.preventDefault(); const element = document.getElementById(event.target.dataset.target); element.scrollIntoView(); console.timeEnd(&#39;id&#39;); });  Getting the element based on its ID CSS selector; Using addEventListener to listen for click event; Starting a performance timer to keep track of the speed; Doing a simple scrollIntoView to have some animation.  Vanilla JavaScript use addEventListener in a for loop: document.</description>
-      
-    </item>
-    
-    <item>
-      <title>Building GitHub Page Blog</title>
-      <link>http://sjiang20.github.io/post/post1/</link>
-      <pubDate>Wed, 12 Jan 2022 12:05:23 -0800</pubDate>
-      
-      <guid>http://sjiang20.github.io/post/post1/</guid>
-      
-        <description>Install hugo  (mac)  Brew install hugo    Create two repositories on GitHub and Make them public  sjiang20.github.io (going to be used as URL) myblog  Clone Blog repositories to local  Inside of myblog, create,RUN  hugo new site dev-tips   Inside of dev-tips, go directly to themes Choose one of the favorite Themes from HUGO official website  git clone the Themes from HUGO official website to themes   Open up config.</description>
       
     </item>
     

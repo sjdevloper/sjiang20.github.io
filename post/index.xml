@@ -6,7 +6,21 @@
     <description>Recent content in Posts on My Simple Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jan 2022 22:10:37 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 11:01:23 -0800</lastBuildDate><atom:link href="http://sjiang20.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atom with Terminal - Mac</title>
+      <link>http://sjiang20.github.io/post/post7/</link>
+      <pubDate>Mon, 14 Feb 2022 11:01:23 -0800</pubDate>
+      
+      <guid>http://sjiang20.github.io/post/post7/</guid>
+      
+        <description>Atom is the one of the most popular JavaScript front-end tools. It is simple editor for writing the JavaScript program is one of the best IDEs to find customization for doing everything without modifying the configuration file. I&amp;rsquo;ll give some steps to add teminal in Atom in this blog.
+  Open Atom
+  Go to Packages category under Atom in the top of you screen.
+  Under Packages category, click install.</description>
+      
+    </item>
+    
     <item>
       <title>Docker with Flask</title>
       <link>http://sjiang20.github.io/post/post6/</link>

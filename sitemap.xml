@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://sjiang20.github.io/post/post6/</loc>
-    <lastmod>2022-01-25T22:10:37-08:00</lastmod>
+    <loc>http://sjiang20.github.io/post/post7/</loc>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
+  </url><url>
+    <loc>http://sjiang20.github.io/categories/</loc>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
+  </url><url>
+    <loc>http://sjiang20.github.io/categories/front-end-development/</loc>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
   </url><url>
     <loc>http://sjiang20.github.io/</loc>
-    <lastmod>2022-01-25T22:10:37-08:00</lastmod>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
   </url><url>
     <loc>http://sjiang20.github.io/post/</loc>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
+  </url><url>
+    <loc>http://sjiang20.github.io/tags/</loc>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
+  </url><url>
+    <loc>http://sjiang20.github.io/tags/tools/</loc>
+    <lastmod>2022-02-14T11:01:23-08:00</lastmod>
+  </url><url>
+    <loc>http://sjiang20.github.io/post/post6/</loc>
     <lastmod>2022-01-25T22:10:37-08:00</lastmod>
   </url><url>
     <loc>http://sjiang20.github.io/post/post5/</loc>
@@ -25,9 +40,5 @@
   </url><url>
     <loc>http://sjiang20.github.io/post/post1/</loc>
     <lastmod>2022-01-12T12:05:23-08:00</lastmod>
-  </url><url>
-    <loc>http://sjiang20.github.io/categories/</loc>
-  </url><url>
-    <loc>http://sjiang20.github.io/tags/</loc>
   </url>
 </urlset>
